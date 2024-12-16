@@ -1,0 +1,120 @@
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bookgrid {
+    background-color: rgba(59, 153, 63, .48);
+    width:95%;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    padding: 10px;
+    gap: 5px;
+    box-sizing: border-box;
+    min-height: 700px;
+}
+
+.catbookitem {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    width: 225px;
+    text-align: center;
+    background-color: #abcaec;
+    min-height: 330px;
+    color: black;
+    white-space: wrap;
+    text-decoration: none;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease forwards;
+
+}
+.catbookitem:hover{
+    background-color: #8fb9e6;
+    text-decoration: none;
+
+}
+.public-domain-container {
+    position: relative;
+    display: inline-block;
+
+}
+
+.bookcover {
+    display:block;
+    height: 200px;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+.addcart-button {
+    background-color: #DA0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.addcart-button:hover {
+    background-color: #850000;
+    text-decoration: none;
+}
+
+.addcart-button:active {
+    background-color: #400000;
+    color: #8a8a8a;
+    text-decoration: none;
+}
+
+.addcart-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style for the icon bubble */
+.public-domain-button {
+    right: 20px;
+    background-color: rgb(0, 21, 114);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    color: rgb(0, 153, 255);
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+
+.public-domain-button:hover {
+    background-color: rgb(141, 207, 252);
+    color: rgb(0, 21, 114);
+    text-decoration: none;
+}
+
+.catbookitem {
+    margin-top: 3px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    min-width: 200px;
+    text-align: center;
+    background-color: #abcaec;
+    height: 322px;
+    color: black;
+    gap: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.catbookitem:hover {
+    background-color: #8fb9e6;
+}

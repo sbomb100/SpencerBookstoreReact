@@ -1,0 +1,106 @@
+
+.welcome-text {
+  width: 90%;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 3px;
+  padding-left: 10px;
+  padding-top:5px;
+  padding-bottom:10px;
+  background-color: #14B51A;
+  box-shadow: 3px 3px 8px rgba(0, 121, 151, 0.5);
+  text-wrap: wrap;
+}
+
+.category-page {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-image: url(../images/site/sea.jpg);
+}
+
+.categorybox {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/*List of Categories*/
+.categorylist {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 20px;
+  border: 2px solid black;
+  margin-bottom: 3px;
+  
+}
+.categorylistheader {
+  font-size: 30px;
+  padding-left: 15px;
+  background-color: #0A1360;
+}
+.text {
+  flex: 1;
+  font-size: 20px;
+  text-align: right;
+}
+
+
+.audiobook {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(26, 12, 88, 0.9);
+  border-radius: 50px;
+  margin-bottom: 5px;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  justify-content: center;
+  justify-self: center;
+  max-height: 200px;
+  min-height: 150px;
+}
+
+.audiobook-button {
+  
+  max-width: 200px;
+  background-color: #01c511;
+  border: 1px solid #000000;
+  color: black;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.audiobook-button-text{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.audiobook-button:hover {
+  background-color: #00612c;
+}
+.audiobook-button a{
+  display:block;
+  text-decoration: none;
+  color: white;
+}

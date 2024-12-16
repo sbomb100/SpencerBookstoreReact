@@ -1,0 +1,90 @@
+.cart-page{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-image: url(../images/site/sea.jpg);
+}
+
+.cart-header{
+    width: 90%;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-top:5px;
+    padding-bottom:10px;
+    background-color: #14B51A;
+    box-shadow: 3px 3px 8px rgba(0, 121, 151, 0.5);
+    text-wrap: wrap;
+}
+
+.checkout-button-container{
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.back-to-shopping-button{
+    background-color: #005c0f;
+    cursor: pointer;
+    padding: 25px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.checkout-button {
+    flex: 2;
+    background-color: #00b109;
+    cursor: pointer;
+    padding: 25px 75px;
+    margin: 0 auto;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+.back-to-shopping-button:hover {
+    background-color: #00550d;
+}
+.checkout-button:hover {
+    background-color: #048c0b;
+}
+.checkout-button:active {
+    background-color: #006c06;
+}
+
+.back-to-shopping-button-empty{
+    background-color: #005c0f;
+    cursor: pointer;
+    padding: 25px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 30px;
+}
+.back-to-shopping-button-empty:hover {
+    background-color: #06400d;
+}
+.empty-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.empty-cart-text{
+    margin: 0 auto;
+    max-width:900px;
+    font-size: 30px;
+    background-color: rgba(33, 64, 255, 0.53);
+}
+
+.recommended-books{
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 10px;
+}
+

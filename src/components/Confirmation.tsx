@@ -21,7 +21,7 @@ function Confirmation() {
     const ccDate = () => {
         let date = new Date(orderdetail.customer.ccExpDate);
         const month = (date.getMonth() + 1).toString().padStart(2, '0'); // Ensure 2 digits
-        const year = date .getFullYear();
+        const year = date.getFullYear();
         return `${month}/${year}`
     }
     if (orderdetail.customer.customerName !== "T") {

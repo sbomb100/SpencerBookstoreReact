@@ -1,0 +1,169 @@
+.cart-page-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+.cart-table {
+    display: grid;
+    grid-template-columns: max-content minmax(350px, 550px) repeat(3, max-content);
+    grid-auto-rows: max-content;
+    row-gap: 10px;
+    width: 70vw;
+    background-color: #7788a8;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    max-height: 500px;
+    min-height: 500px;
+    min-width: 800px;
+    max-width: 950px;
+    scrollbar-width: thin;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.cart-table ul {
+    display: contents;
+
+}
+
+.cart-table ul > li {
+    display: contents;
+}
+.table-heading {
+    background-color: #130098;
+    color: white;
+    max-height: 50px;
+}
+
+.table-heading > * {
+    background-color: #130563;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+.heading-book {
+
+    grid-column: 1 / 2;
+    overflow: hidden;
+    display: block;
+}
+.heading-title {
+    grid-column: 2 / 3;
+    text-align: left;
+}
+.heading-price {
+    grid-column: 3 / 4;
+    text-align: right;
+}
+.heading-quantity {
+    grid-column: 4 / 5;
+    text-align: center;
+}
+.heading-subtotal {
+    text-align: right;
+    grid-column: 5 / 6;
+    min-width: 50px;
+}
+
+.cart-book-image {
+    padding: 0 1em;
+}
+
+.cart-book-image > * {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.cart2 img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+
+.cart-book-price {
+    padding-left: 1em;
+    padding-right: 15px;
+    text-align: right;
+
+}
+
+.cart-book-quantity {
+    padding-left: .2em;
+    font-size: 1.3em;
+    padding-right: .2em;
+
+}
+
+.cart-book-subtotal {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    min-width: 70px;
+}
+
+.incdec-button{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.inc-button {
+    font-size: 1rem;
+    color: #0101ac;
+    margin-right: 0.4em;
+
+}
+
+.inc-button:hover {
+    color: black;
+}
+
+.dec-button {
+    font-size: 1rem;
+    color: #0101ac;
+    margin-right: 0.4em;
+
+}
+
+.dec-button:hover {
+    color: black;
+}
+
+
+.row-gap {
+    padding-bottom: 1px;
+}
+
+.bottom-row {
+    display: flex;
+    background-color: #130563;
+    width: 70vw;
+    max-width: 950px;
+    align-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text-container {
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+    margin-left: auto; /* Pushes the container to the far right */
+}
+
+.numitems {
+    text-align: right;
+}
+
+.clear-cart{
+    border-color: transparent;
+    cursor: pointer;
+}
+.clear-cart:hover{
+    background-color: #0e1983;
+}

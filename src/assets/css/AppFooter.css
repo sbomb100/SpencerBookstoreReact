@@ -1,0 +1,93 @@
+.footer-container {
+  background: #5c78bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2px;
+  padding-top: 4px;
+  width: 100%;
+
+  flex-wrap: wrap;
+}
+
+footer {
+  background: #5c78bd;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.copyright {
+  font-size: 12px;
+  white-space: nowrap;
+  color: black;
+}
+.links,
+.social-media-icons {
+  display: flex;
+  margin-left: .5em;
+  margin-right: .5em;
+
+
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25em;
+  font-size: 40px;
+}
+
+.social-icons i:hover {
+  color: #007bff;
+}
+.social-text{
+  font-size: 20px;
+  white-space: nowrap ;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  gap: 2px;
+}
+
+.icon-button {
+  background-color: #A1EAEE;
+  border: 1px solid #000000;
+  padding: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-button:hover {
+  background-color: #32B5BD;
+}
+
+.rounded-button {
+  background-color: #A1EAEE;
+  border: 1px solid #000000;
+  color: black;
+  padding: .4em 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.rounded-button:hover {
+  background-color: #32B5BD;
+}

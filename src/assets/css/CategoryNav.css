@@ -1,0 +1,68 @@
+
+.category-buttons {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #90B1F1;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    transition: background-color ease-in-out 0.3s;
+    text-decoration: none;
+}
+
+.hover-icon {
+    display: none;
+    padding-top: 7px;
+}
+.default-icon {
+    padding-top: 7px;
+}
+
+.selected-category-buttons {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #005c0f;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: background-color ease-in-out 0.3s;
+}
+
+.selected-icon {
+    color:white;
+    padding-top: 7px;
+}
+.selected-category-buttons:hover {
+    color: white;
+    background-color: #00b109;
+    text-decoration: none;
+}
+
+.selected-category-text {
+    flex: 1;
+    font-size: 20px;
+    color:white;
+    text-align: right;
+}
+
+.category-buttons:hover  .default-icon {
+    display: none;
+    text-decoration: none;
+}
+
+.category-buttons:hover  .hover-icon {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+.category-buttons:hover {
+    background-color: #00b109;
+    color: white;
+    text-decoration: none;
+    transition: background-color ease-in-out 0.3s;
+}

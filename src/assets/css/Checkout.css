@@ -1,0 +1,290 @@
+
+
+.checkout-cart-table-view {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.checkout-cart-table {
+    display: flex;
+    flex-direction: column;
+
+}
+.checkout-item-div{
+    flex: 1;
+    display: grid;
+    max-width: 50%;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 5px;
+    border-radius: 25px;
+    margin: 10px 10px;
+    background-color: rgba(30, 38, 96, 0.55);
+    min-width:300px;
+    max-height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.checkout-display {
+    margin-top: 30px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.checkout-text {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom:20px;
+}
+.checkout-page-body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1em;
+    background-color: rgba(0, 92, 15, 0.42);
+    min-height: 530px;
+    margin: 10px 10px;
+    max-height: 700px;
+
+}
+.checkout-table-heading {
+    background-color: rgba(79, 203, 242, 0.32);
+    color: white;
+}
+.checkout-table-heading > * {
+    background-color: rgba(79, 203, 242, 0.32);
+    padding: 0.5em;
+}
+.checkout-heading-book {
+    grid-column: 1 / 3;
+}
+.checkout-heading-price {
+    grid-column: 3 / 5;
+    text-align: right;
+}
+.checkout-heading-subtotal {
+    text-align: right;
+    grid-column: -2 / -1;
+}
+.checkout-cart-book-image {
+    width: 150px;
+    height: 200px;
+}
+.checkout-cart-book-info {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-items: right;
+    height: 150px;
+}
+
+.checkout-cart-book-info{
+    width: 140px;
+}
+
+.checkout-cart-book-item {
+    margin-left: 10px;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 220px;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+}
+
+.checkout-cart-info-img {
+    width: 90%;
+    height: 90%;
+}
+.checkout-row-line {
+    border-bottom: 1px solid black;
+}
+.checkout-num-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.checkout-narrow-rect {
+    width: 75px;
+    height: 100px;
+}
+
+.checkout-square {
+    width: 100px;
+    height: 100px;
+}
+
+.checkout-wide-rect {
+    width: 125px;
+    height: 100px;
+}
+
+.checkout-cart-book-price {
+    padding-left: 1em;
+    text-align: right;
+}
+
+.checkout-cart-book-quantity {
+    display:flex;
+
+}
+
+.checkout-cart-book-subtotal {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.checkout-icon-button {
+    border: none;
+    cursor: pointer;
+}
+.checkout-icon-button:hover {
+    color: #cacaca;
+}
+.checkout-icon-button:active {
+    color: #656565;
+}
+
+input[type="number"] {
+    width: 4em;
+}
+
+.checkout-select {
+    background-color: rgba(0, 8, 159, 0.32);
+    color: white;
+    border-radius: 3px;
+    scrollbar-width: thin;
+}
+
+.checkout-form form {
+
+    background-color: rgba(0, 8, 104, 0.7);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.checkout-form form > div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5em;
+}
+
+.checkout-form form > div:first-child {
+    margin-top: 0;
+}
+.checkout-form form > div > input,
+.checkout-form > div > select {
+    background-color: rgba(7, 43, 2, 0.32);
+    margin-left: 0.5em;
+}
+.checkout-form form  .error {
+
+    text-align: right;
+    font-size: 0.7em;
+    color: #cc0033;
+    display: inline-block;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+.checkoutStatusBox {
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 375px;
+}
+.checkout-view {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #08510c;
+    padding: 5px 5px;
+
+}
+.final-checkout-button {
+    background-color: #00b109;
+    cursor: pointer;
+    width: 250px;
+    margin: 5px auto;
+    padding: 15px 40px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.final-checkout-button:hover {
+    background-color: #048c0b;
+}
+
+.final-checkout-button:active {
+    background-color: #006c06;
+}
+
+.bold-line {
+    border: 0;
+    border-top: 4px solid white; /* Makes the horizontal line bold */
+    width: auto; /* Adjust the width of the line */
+    margin: 0 0;
+}
+
+
+.sub-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.final-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.total-text {
+    text-align: left;
+}
+
+.total-price {
+    text-align: right;
+}
+
+.empty-cart-checkout {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(../images/site/sea.jpg);
+    min-height: 500px;
+    padding-bottom: 20px;
+}
+
+.empty-checkout-header{
+    font-size: 50px;
+    max-width: 800px;
+    margin-left: 20px;
+    padding-left: 10px;
+    background-color: rgba(48, 255, 0, 0.71);
+    box-shadow: 6px 6px 8px rgba(255, 255, 255, 0.2);
+}
+
+.empty-checkout-text {
+    font-size: 40px;
+    max-width: 800px;
+    margin: auto auto;
+    background-color: rgba(0, 34, 94, 0.71);
+    box-shadow: 6px 6px 8px rgba(255, 255, 255, 0.2);
+}
