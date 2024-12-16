@@ -1,0 +1,53 @@
+.confirmationView {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 24px;
+    margin: 0 auto;
+    background-image: url(../images/site/sea.jpg);
+}
+
+.confirmation-title{
+    margin: 15px auto;
+    font-size: 45px;
+    text-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 200px;
+    background-color: #6788FF;
+    box-shadow: 6px 6px 8px rgba(255, 255, 255, 0.2);
+}
+
+.confirmation-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 40px;
+    text-align: left;
+
+}
+.customer {
+    font-size: 24px;
+}
+.confirmation-number {
+    background-color: rgba(10, 122, 6, 0.58);
+    margin:  1em auto;
+    padding: 5px;
+}
+
+.customer-info{
+    background-color: rgba(10, 122, 6, 0.58);
+    margin:  0 auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.customer-info li{
+
+    padding: 5px;
+}
+
+.prices{
+    text-align: right; /* Aligns text to the right */
+    width: 100%;
+    padding-right: 10px;
+}

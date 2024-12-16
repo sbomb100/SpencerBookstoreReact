@@ -1,0 +1,64 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure it takes full available height */
+}
+
+.scrollable-table {
+    max-height: 520px; /* Limit the height */
+    overflow-y: scroll; /* Make the table body scrollable */
+
+}
+
+.confirmation_table {
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.confirmation_td {
+    display: table-cell;
+    padding: 0.5em 0.5em;
+    background-color: rgba(17, 55, 156, 0.82);
+    vertical-align: middle;
+}
+
+.confirmation_tr:nth-child(even) > td {
+    background-color: rgba(3, 40, 106, 0.76);
+}
+
+.confirmation_td:nth-child(1) {
+    text-align: left;
+}
+
+.confirmation_td:nth-child(2) {
+    text-align: center;
+}
+
+.confirmation_td:nth-child(3) {
+    text-align: right;
+}
+
+.totals-container {
+    margin-top: auto; /* Push totals to the bottom */
+    padding-top: 10px;
+}
+
+.totals-table {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.totals td {
+    padding: 8px;
+}
+
+.prices {
+    text-align: right;
+}
+.totals{
+    background: #030b55;
+    font-size: 24px;
+}
